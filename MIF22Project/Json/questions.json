@@ -3,10 +3,10 @@
 		{
 			"question": "En quelle année est sorti Super Mario Bros ?",
 			"choix": [
+				"1985",
 				"1986",
 				"1987",
-				"1988",
-				"1989"
+				"1988"
 			],
 			"reponse": 1
 		},
@@ -17,6 +17,16 @@
 				"Quake",
 				"Half-Life",
 				"Call Of Duty"
+			],
+			"reponse": 1
+		},
+		{
+			"question": "Quelle est la toute première console de SEGA ?",
+			"choix": [
+				"Master System",
+				"Megadrive",
+				"Saturn",
+				"Dreamcast"
 			],
 			"reponse": 1
 		},
