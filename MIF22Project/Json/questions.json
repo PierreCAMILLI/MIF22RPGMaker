@@ -1,0 +1,24 @@
+{
+	"questions": [
+		{
+			"question": "En quelle année est sorti Super Mario Bros ?",
+			"choix": [
+				"1986",
+				"1987",
+				"1988",
+				"1989"
+			],
+			"reponse": 1
+		},
+		{
+			"question": "Quel est le tout premier FPS ?",
+			"choix": [
+				"Doom",
+				"Quake",
+				"Half-Life",
+				"Call Of Duty"
+			],
+			"reponse": 1
+		},
+	]
+}
