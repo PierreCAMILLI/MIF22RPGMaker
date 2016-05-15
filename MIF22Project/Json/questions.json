@@ -1,6 +1,7 @@
 {
 	"questions": [
 		{
+			"id": "mario01",
 			"question": "En quelle année est sorti Super Mario Bros ?",
 			"choix": [
 				"1983",
@@ -13,6 +14,7 @@
 			"reponse": 3
 		},
 		{
+			"id": "fps01",
 			"question": "Quel est le tout premier FPS ?",
 			"choix": [
 				"Doom",
@@ -23,6 +25,7 @@
 			"reponse": 1
 		},
 		{
+			"id": "sega01",
 			"question": "Quelle est la toute première console de SEGA ?",
 			"choix": [
 				"Master System",
