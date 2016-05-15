@@ -48,7 +48,7 @@
 		},
 		{
 			"id": "pokemon02",
-			"question": "En quelle année est sorti la version Jaune de\n Pokémon ?",
+			"question": "En quelle année est sorti la version Jaune de Pokémon ?",
 			"choix": [
 				"1998",
 				"2000",
@@ -59,7 +59,7 @@
 		},
 		{
 			"id": "pokemon03",
-			"question": "Combien de Pokémon possédait la version Jaune de\n Pokemon ?",
+			"question": "Combien de Pokémon possédait la version Jaune de Pokemon ?",
 			"choix": [
 				"140",
 				"151",
@@ -70,7 +70,7 @@
 		},
 		{
 			"id": "pokemon04",
-			"question": "Quelle région du jeu n'existe pas dans les versions\n Or et Argent ?",
+			"question": "Quelle région du jeu n'existe pas dans les versions Or et Argent de Pokémon ?",
 			"choix": [
 				"Broto",
 				"Johto",
@@ -113,7 +113,7 @@
 		},
 		{
 			"id": "streetfighter02",
-			"question": "Qui était le seul personnage disponible en solo sur\n le premier opus de Street Fighter ?",
+			"question": "Qui était le seul personnage disponible en solo sur le premier opus de Street Fighter ?",
 			"choix": [
 				"Ken",
 				"Ryu",
@@ -124,7 +124,7 @@
 		},
 		{
 			"id": "streetfighter03",
-			"question": "Combien de Street Fighter hors extensions ont été\n commercialisés ?",
+			"question": "Combien de Street Fighter hors extensions ont été commercialisés ?",
 			"choix": [
 				"5",
 				"8",
@@ -276,7 +276,7 @@
 		},
 		{
 			"id": "supermariobros201",
-			"question": "Sous quel nom le second épisode de Super Mario Bros\n tel qu'il est sorti au Japon est connu en occident ?",
+			"question": "Sous quel nom le second épisode de Super Mario Bros tel qu'il est sorti au Japon est connu en occident ?",
 			"choix": [
 				"Super Mario Bros : The Lost Levels",
 				"Super Mario Bros 2",
@@ -297,7 +297,7 @@
 		},
 		{
 			"id": "supermariobros203",
-			"question": "De quel jeu est tiré la version occidentale de Super\n Mario Bros 2 ?",
+			"question": "De quel jeu est tiré la version occidentale de Super Mario Bros 2 ?",
 			"choix": [
 				"Doki Doki Panic",
 				"Super Mario Bros : The Lost Levels",
