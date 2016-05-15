@@ -35,5 +35,275 @@
 			],
 			"reponse": 1
 		},
+		{
+			"id": "pokemon01",
+			"question": "Quel Pokémon n'était pas dans le choix de départ dans la version bleue ?",
+			"choix": [
+				"Bulbizarre",
+				"Salamèche",
+				"Pikachu",
+				"Carapuce"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "pokemon02",
+			"question": "En quelle année est sorti la version Jaune de\n Pokémon ?",
+			"choix": [
+				"1998",
+				"2000",
+				"2001",
+				"2003"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "pokemon03",
+			"question": "Combien de Pokémon possédait la version Jaune de\n Pokemon ?",
+			"choix": [
+				"140",
+				"151",
+				"178",
+				"190"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "pokemon04",
+			"question": "Quelle région du jeu n'existe pas dans les versions\n Or et Argent ?",
+			"choix": [
+				"Broto",
+				"Johto",
+				"Kanto",
+			],
+			"reponse": 1
+		},
+		{
+			"id": "spaceinvaders01",
+			"question": "Quelle est la date de sortie de Space Invaders ?",
+			"choix": [
+				"1976",
+				"1978",
+				"1980",
+				"1982"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "spaceinvaders02",
+			"question": "Quelle entreprise a développée Space Invaders ?",
+			"choix": [
+				"Namco",
+				"Nintendo",
+				"Taito",
+				"Capcom"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "streetfighter01",
+			"question": "Quelle entreprise a développée Street Fighter ?",
+			"choix": [
+				"Taito",
+				"Capcom",
+				"Namco",
+				"Nintendo"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "streetfighter02",
+			"question": "Qui était le seul personnage disponible en solo sur\n le premier opus de Street Fighter ?",
+			"choix": [
+				"Ken",
+				"Ryu",
+				"Chun-Li",
+				"Zangief"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "streetfighter03",
+			"question": "Combien de Street Fighter hors extensions ont été\n commercialisés ?",
+			"choix": [
+				"5",
+				"8",
+				"9",
+				"11"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "streetfighter04",
+			"question": "Pour quelle plateforme les Street Fighter n'ont jamais été développés ?",
+			"choix": [
+				"Playstation 2",
+				"Playstation 3",
+				"XBOX 360",
+				"PC"
+			],
+			"reponse": 1
+		},
+		{
+			"id": "donkeykong01",
+			"question": "Qui est l'éditeur de Donkey Kong ?",
+			"choix": [
+				"Namco",
+				"Nintendo",
+				"Taito",
+				"Capcom"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "donkeykong02",
+			"question": "Qu'est ce que Mario doit récuperer pour finir le jeu ?",
+			"choix": [
+				"Un cocktail",
+				"Une princesse",
+				"Un ballon",
+				"Un champignon"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "donkeykong03",
+			"question": "Qui a concu Donkey Kong ?",
+			"choix": [
+				"Shigeru Miyamoto",
+				"Richard Garfield",
+				"Gary Gygax",
+				"Charles Darrow"
+			],
+			"reponse": 1
+		},
+		{
+			"id": "finalfantasy01",
+			"question": "A quel type de jeu appartient Final Fantasy ?",
+			"choix": [
+				"FPS (First Person Shooter)",
+				"MMORPG (Massivement Multijoueur Online Role Playing Game)",
+				"RPG (Role Playing Game)",
+				"STR (Stratégie en Temps Réel)"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "finalfantasy02",
+			"question": "Sur quelle plateforme Final Fantasy n'est jamais sorti ?",
+			"choix": [
+				"GameBoy Advance",
+				"GameCube",
+				"GameBoy Color",
+				"Nintendo DS"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "finalfantasy03",
+			"question": "Quel compositeur a travaillé sur Final Fantasy ?",
+			"choix": [
+				"Nobuo Uematsu",
+				"Junichi Masuda",
+				"Joachim Garraud",
+				"Koji Kondo"
+			],
+			"reponse": 1
+		},
+		{
+			"id": "dragonquest01",
+			"question": "Qui est le concepteur de Dragon Quest ?",
+			"choix": [
+				"Akira Toriyama",
+				"Yuji Horii",
+				"Nicolas Cage"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "dragonquest02",
+			"question": "Qui est le compositeur attitré de Dragon Quest ?",
+			"choix": [
+				"Junichi Masuda",
+				"Nobuo Uematsu",
+				"Koichi Sugiyama"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "dragonquest03",
+			"question": "Quelle entreprise édite Dragon Quest ?",
+			"choix": [
+				"Enix",
+				"Namco",
+				"EA",
+				"Nintendo"
+			],
+			"reponse": 1
+		},
+		{
+			"id": "duckhunt01",
+			"question": "Sur quelle console est sortie Duck Hunt ?",
+			"choix": [
+				"Playstation",
+				"GameBoy Color",
+				"GameCube",
+				"NES"
+			],
+			"reponse": 4
+		},
+		{
+			"id": "duckhunt02",
+			"question": "Quel est le premier jeu à utiliser l'accessoire Zapper de la NES ?",
+			"choix": [
+				"Super Mario Bros 2",
+				"Duck Hunt",
+				"Dragon Quest",
+				"Final Fantasy"
+			],
+			"reponse": 2
+		},
+		{
+			"id": "duckhunt03",
+			"question": "En quelle année est paru Duck Hunt ?",
+			"choix": [
+				"1980",
+				"1987",
+				"1992",
+				"1998"
+			],
+			"reponse": 2 
+		},
+		{
+			"id": "supermariobros201",
+			"question": "Sous quel nom le second épisode de Super Mario Bros\n tel qu'il est sorti au Japon est connu en occident ?",
+			"choix": [
+				"Super Mario Bros : The Lost Levels",
+				"Super Mario Bros 2",
+				"Doki Doki Panic",
+			],
+			"reponse": 1
+		},
+		{
+			"id": "supermariobros202",
+			"question": "Quelle entreprise a développée Super Mario Bros 2 ?",
+			"choix": [
+				"Namco",
+				"EA",
+				"Enix",
+				"Nintendo"
+			],
+			"reponse": 4
+		},
+		{
+			"id": "supermariobros203",
+			"question": "De quel jeu est tiré la version occidentale de Super\n Mario Bros 2 ?",
+			"choix": [
+				"Doki Doki Panic",
+				"Super Mario Bros : The Lost Levels",
+				"Super Mario Bros 2"
+			],
+			"reponse": 1
+		},
 	]
 }
