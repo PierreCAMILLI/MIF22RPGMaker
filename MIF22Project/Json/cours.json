@@ -1,0 +1,29 @@
+{
+	"cours": [
+		{
+			"id": "str",
+			"texte": "StarCraft est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment. Avec plus de onze millions de copies vendues dans le monde, il est l’un des jeux vidéo sur PC les mieux vendus et reste à ce jour le jeu de stratégie en temps réel le plus vendu de tous les temps.",
+			"question": ["rts01"]
+		},
+		{
+			"id": "supermario",
+			"texte": "Cet épisode n'est pas un jeu original puisqu'il s'agit de l'adaptation de Yume Kōjō: Doki Doki Panic, un jeu Nintendo sorti au Japon sur Famicom Disk System en 1987. La première véritable suite à Super Mario Bros. est Super Mario Bros.: The Lost Levels (connu au Japon sous le nom de Super Mario Bros. 2) mais cet épisode n'étant pas sorti à l'époque en Occident, c'est cette adaptation qui a fait office de suite pour les Occidentaux.",
+			"question": ["supermariobros203", "supermariobros201"]
+		},
+		{
+			"id": "duckhunt",
+			"texte": "Le NES Zapper (ou Famicom Light Bite au Japon) est un pistolet électronique, vendu comme accessoire de la Nintendo Entertainment System (NES) en 1985 et de la Nintendo Family Computer (Famicom) en 1984. La version japonaise est une représentation réaliste d'un revolver, alors que la version occidentale ressemble plus à un jouet, gardant le schéma de couleur de la NES",
+			"question": ["duckhunt02", "duckhunt01"]
+		},
+		{
+			"id": "dragonquest",
+			"texte": "Dragon Quest est édité par Enix en 1986. Le jeu est concu par Yuji Horii qui est surtout connu pour son travail sur Dragon Quest. Le compositeur le plus connu ayant travailé sur ce jeu est Koichi Sugiyama ",
+			"question": ["dragonquest03"]
+		},
+		{
+			"id": "compositeur",
+			"texte": "Parmi les compositeurs connus de jeux vidéo, Nobuo Uematsu et Yuji Horii ont tous les deux travaillés sur deux grand jeux rétros. Respectivement Final Fantasy et Dragon Quest. Nobuo est considéré comme l'un des plus grand compositeur de jeux vidéo au monde.",
+			"question": ["dragonquest03", "finalfantasy03"]
+		}
+	]
+}
