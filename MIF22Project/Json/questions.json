@@ -1,8 +1,6 @@
 {
 	"questions": [
 		{
-<<<<<<< HEAD
-=======
 			"id": "mario01",
 			"question": "En quelle année est sorti Super Mario Bros ?",
 			"choix": [
@@ -18,7 +16,6 @@
 			],
 		},
 		{
->>>>>>> 4cb2cf9eeecb483e5951d233a7c075d82766a4ad
 			"id": "fps01",
 			"question": "Quel est le tout premier FPS ?",
 			"choix": [

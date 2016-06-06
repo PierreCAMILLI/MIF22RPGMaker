@@ -1,14 +1,14 @@
 {
 	"Cours": [
 		{
-			"id": 01,
+			"id": "rts",
 			"texte": "StarCraft est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment. Avec plus de onze 
 			 millions de copies vendues dans le monde, il est l’un des jeux vidéo sur PC les mieux vendus et reste à ce jour le jeu de 
 			 stratégie en temps réel le plus vendu de tous les temps.",
 			"question": ["rts01"]
 		},
 		{
-			"id": 02,
+			"id": "supermariobros",
 			"texte": "Cet épisode n'est pas un jeu original puisqu'il s'agit de l'adaptation de Yume Kōjō: Doki Doki Panic, un jeu Nintendo 
 			sorti au Japon sur Famicom Disk System en 1987. La première véritable suite à Super Mario Bros. est Super Mario Bros.: The Lost 
 			Levels (connu au Japon sous le nom de Super Mario Bros. 2) mais cet épisode n'étant pas sorti à l'époque en Occident, c'est cette 
@@ -16,7 +16,7 @@
 			"question": ["supermariobros203", "supermariobros201"]
 		},
 		{
-			"id": 03,
+			"id": "duckhunt",
 			"texte": "Le NES Zapper (ou Famicom Light Bite au Japon) est un pistolet électronique, vendu comme accessoire de la Nintendo 
 			Entertainment System (NES) en 1985 et de la Nintendo Family Computer (Famicom) en 1984. La version japonaise est une 
 			représentation réaliste d'un revolver, alors que la version occidentale ressemble plus à un jouet, gardant le schéma de couleur 
@@ -24,13 +24,13 @@
 			"question": ["duckhunt02", "duckhunt01"]
 		},
 		{
-			"id": 04,
+			"id": "dragonquest",
 			"texte": "Dragon Quest est édité par Enix en 1986. Le jeu est concu par Yuji Horii qui est surtout connu pour son travail sur 
 			Dragon Quest. Le compositeur le plus connu ayant travailé sur ce jeu est Koichi Sugiyama ",
 			"question": ["dragonquest03"]
 		},
 		{
-			"id": 05,
+			"id": "compositeur",
 			"texte": "Parmi les compositeurs connus de jeux vidéo, Nobuo Uematsu et Yuji Horii ont tous les deux travaillés sur deux grand 
 			jeux rétros. Respectivement Final Fantasy et Dragon Quest. Nobuo est considéré comme l'un des plus grand compositeur de jeux 
 			vidéo au monde.",
@@ -73,7 +73,7 @@
 			"question": ["spaceinvaders01", "spaceinvaders02", "spaceinvaders03"]
 		},
 		{
-			"id": "pokemon",
+			"id": "sega",
 			"texte": "Sega Corporation est une société japonaise de développement et d'édition de jeux vidéo, ainsi que fabricant de 
 			bornes et de systèmes d'arcade. Sega est également un fabricant de consoles de jeux vidéo, mais à la suite de l'échec commercial 
 			de la console de salon Saturn ainsi qu'à l'indifférence du public envers la Dreamcast, la société se retire de ce marché à la date 
@@ -82,6 +82,16 @@
 			afin de maîtriser les marchés de ventes à l'étranger, et lance la Master System, une version redessinée et internationalisée de la 
 			Sega Mark-III. Elle est la première console de Sega à être commercialisée à l'échelle internationale, et sort finalement aussi au 
 			Japon en 1987.",
+			"question": ["sega01"]
+		},
+		{
+			"id": "pokemon",
+			"texte": "Dans l'univers des PokémonN 1, les animaux du monde réel n'existent pas (ou très peu). Le monde est peuplé de Pokémon, 
+			des créatures qui vivent en harmonie avec les humains, mais possèdent des aptitudes quasiment impossibles pour des animaux du 
+			monde réel, telles que cracher du feu ou encore générer de grandes quantités d'électricité. Certains dressent les Pokémon pour 
+			organiser des combats entre eux, transportant généralement les Pokémon dans des Poké balls. Ces dresseur Pokémon voyagent à 
+			travers le monde dans le but d'attraper le plus grand nombre de Pokémon. Les matchs Pokémon consistent en combats entre les 
+			Pokémon de deux dresseurs, et se terminent quand tous les Pokémon de l'un d'entre eux sont KO.",
 			"question": ["pokemon01", "pokemon02", "pokemon03", "pokemon04"]
 		},
 		{
@@ -94,17 +104,6 @@
 			Maze, en 1987, introduit le jeu multijoueur en réseau local et devient le premier jeu de tir à la première personne sur 
 			console de jeux vidéo",
 			"question": ["fps01"]
-		},
-		{
-			"id": "supermariobros",
-			"texte": "Le jeu de tir à la première personne ou en vue subjective, souvent appelé Doom-like et FPS, sigle pour l'expression 
-			anglaise first-person shooter, est un type de jeu vidéo de tir fondé sur des combats en vision subjective (« à la première 
-			personne »), c'est-à-dire que le joueur voit l'action à travers les yeux du protagoniste. C'est un sous-genre du jeu d'action 
-			qui partage des traits communs avec les autres genres de jeux de tirs, tels que le jeu de tir à la troisième personne ou le 
-			jeu de tir au pistolet. Les deux premiers jeux de tir à la première personne sont Maze War et Spasim sortis en 1974. MIDI 
-			Maze, en 1987, introduit le jeu multijoueur en réseau local et devient le premier jeu de tir à la première personne sur 
-			console de jeux vidéo",
-			"question": ["supermariobros01"]
 		},
 	]
 }
