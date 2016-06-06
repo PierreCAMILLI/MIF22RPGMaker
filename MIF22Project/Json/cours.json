@@ -1,0 +1,110 @@
+{
+	"Cours": [
+		{
+			"id": 01,
+			"texte": "StarCraft est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment. Avec plus de onze 
+			 millions de copies vendues dans le monde, il est l’un des jeux vidéo sur PC les mieux vendus et reste à ce jour le jeu de 
+			 stratégie en temps réel le plus vendu de tous les temps.",
+			"question": ["rts01"]
+		},
+		{
+			"id": 02,
+			"texte": "Cet épisode n'est pas un jeu original puisqu'il s'agit de l'adaptation de Yume Kōjō: Doki Doki Panic, un jeu Nintendo 
+			sorti au Japon sur Famicom Disk System en 1987. La première véritable suite à Super Mario Bros. est Super Mario Bros.: The Lost 
+			Levels (connu au Japon sous le nom de Super Mario Bros. 2) mais cet épisode n'étant pas sorti à l'époque en Occident, c'est cette 
+			adaptation qui a fait office de suite pour les Occidentaux.",
+			"question": ["supermariobros203", "supermariobros201"]
+		},
+		{
+			"id": 03,
+			"texte": "Le NES Zapper (ou Famicom Light Bite au Japon) est un pistolet électronique, vendu comme accessoire de la Nintendo 
+			Entertainment System (NES) en 1985 et de la Nintendo Family Computer (Famicom) en 1984. La version japonaise est une 
+			représentation réaliste d'un revolver, alors que la version occidentale ressemble plus à un jouet, gardant le schéma de couleur 
+			de la NES",
+			"question": ["duckhunt02", "duckhunt01"]
+		},
+		{
+			"id": 04,
+			"texte": "Dragon Quest est édité par Enix en 1986. Le jeu est concu par Yuji Horii qui est surtout connu pour son travail sur 
+			Dragon Quest. Le compositeur le plus connu ayant travailé sur ce jeu est Koichi Sugiyama ",
+			"question": ["dragonquest03"]
+		},
+		{
+			"id": 05,
+			"texte": "Parmi les compositeurs connus de jeux vidéo, Nobuo Uematsu et Yuji Horii ont tous les deux travaillés sur deux grand 
+			jeux rétros. Respectivement Final Fantasy et Dragon Quest. Nobuo est considéré comme l'un des plus grand compositeur de jeux 
+			vidéo au monde.",
+			"question": ["dragonquest03", "finalfantasy03"]
+		},
+		{
+			"id": "rpg",
+			"texte": "Un jeu vidéo de rôle ou simplement jeu de rôle, couramment abrégé en RPG (sigle issu de l'anglais role playing game), 
+			est un type de jeu vidéo s'inspirant des codes et du principe des jeux de rôle sur table. Le joueur y incarne un ou plusieurs 
+			personnages qu'il fait évoluer au fil d'une quête. Généralement, le jeu vidéo de rôle contient un univers vaste, 
+			un scénario complexe et une durée de vie conséquente. Les séries les plus célèbres du genre sont, Baldur's Gate, Dragon Quest, 
+			Pokémon...",
+			"question": ["finalfantasy01"]
+		},
+		{
+			"id": "donkeykong",
+			"texte": "Donkey Kong, littéralement « l'Âne Gorille », est un jeu vidéo d'arcade créé par 
+			Nintendo en 1981. C'est un des premiers jeux de plates-formes, précédé dans le même genre par Space Panic et Apple Panic2. 
+			L'intérêt est centré sur le déplacement d'un personnage principal à travers quatre niveaux en évitant des obstacles mouvants. 
+			Si le scénario est simple, il est suffisamment développé pour l'époque : Mario, appelé alors Jumpman, doit secourir une demoiselle 
+			en détresse, capturée par un gorille géant, Donkey Kong. Les deux personnages qu'il introduit sont appelés à devenir deux icônes 
+			de la marque Nintendo.",
+			"question": ["donkeykong01","donkeykong02", "donkeykong03"]
+		},
+		{
+			"id": "streetfighter",
+			"texte": "Le premier épisode de la série sorti en 1987 a pour originalité de tirer profit du système analogique des boutons : 
+			la puissance des coups portés dans le jeu est proportionnelle à la pression appliquée. Ce système fut abandonné, à la suite 
+			des abus et mauvais traitements subis par les bornes, certains joueurs n'hésitant pas à taper du pied sur les boutons.
+			Dans ce premier opus, il n'était pas possible de sélectionner d'autre personnage que Ryu (ou Ken si l'on jouait à deux joueurs). 
+			Les adversaires étaient classés selon leur pays d'origine.",
+			"question": ["streetfighter01", "streetfighter02", "streetfighter03", "streetfighter04"]
+		},
+		{
+			"id": "spaceinvaders",
+			"texte": "Space Invaders est un shoot them up fixe en deux dimensions développé par Taito en 1978. 
+			Le joueur contrôle un canon laser qu'il peut déplacer 
+			horizontalement, au bas de l'écran. Dans les airs, des rangées d'aliens se déplacent latéralement tout en se rapprochant 
+			progressivement du sol et en lançant des missiles. L'objectif est de détruire avec le canon laser une vague ennemie.",
+			"question": ["spaceinvaders01", "spaceinvaders02", "spaceinvaders03"]
+		},
+		{
+			"id": "pokemon",
+			"texte": "Sega Corporation est une société japonaise de développement et d'édition de jeux vidéo, ainsi que fabricant de 
+			bornes et de systèmes d'arcade. Sega est également un fabricant de consoles de jeux vidéo, mais à la suite de l'échec commercial 
+			de la console de salon Saturn ainsi qu'à l'indifférence du public envers la Dreamcast, la société se retire de ce marché à la date 
+			du 31 janvier 2001 pour se consacrer exclusivement au développement de jeux et à l'arcade.
+			En 1986, les actions de Sega deviennent publiques au Japon. La compagnie s'attaque alors au marché occidental, fonde Sega of America 
+			afin de maîtriser les marchés de ventes à l'étranger, et lance la Master System, une version redessinée et internationalisée de la 
+			Sega Mark-III. Elle est la première console de Sega à être commercialisée à l'échelle internationale, et sort finalement aussi au 
+			Japon en 1987.",
+			"question": ["pokemon01", "pokemon02", "pokemon03", "pokemon04"]
+		},
+		{
+			"id": "fps",
+			"texte": "Le jeu de tir à la première personne ou en vue subjective, souvent appelé Doom-like et FPS, sigle pour l'expression 
+			anglaise first-person shooter, est un type de jeu vidéo de tir fondé sur des combats en vision subjective (« à la première 
+			personne »), c'est-à-dire que le joueur voit l'action à travers les yeux du protagoniste. C'est un sous-genre du jeu d'action 
+			qui partage des traits communs avec les autres genres de jeux de tirs, tels que le jeu de tir à la troisième personne ou le 
+			jeu de tir au pistolet. Les deux premiers jeux de tir à la première personne sont Maze War et Spasim sortis en 1974. MIDI 
+			Maze, en 1987, introduit le jeu multijoueur en réseau local et devient le premier jeu de tir à la première personne sur 
+			console de jeux vidéo",
+			"question": ["fps01"]
+		},
+		{
+			"id": "supermariobros",
+			"texte": "Le jeu de tir à la première personne ou en vue subjective, souvent appelé Doom-like et FPS, sigle pour l'expression 
+			anglaise first-person shooter, est un type de jeu vidéo de tir fondé sur des combats en vision subjective (« à la première 
+			personne »), c'est-à-dire que le joueur voit l'action à travers les yeux du protagoniste. C'est un sous-genre du jeu d'action 
+			qui partage des traits communs avec les autres genres de jeux de tirs, tels que le jeu de tir à la troisième personne ou le 
+			jeu de tir au pistolet. Les deux premiers jeux de tir à la première personne sont Maze War et Spasim sortis en 1974. MIDI 
+			Maze, en 1987, introduit le jeu multijoueur en réseau local et devient le premier jeu de tir à la première personne sur 
+			console de jeux vidéo",
+			"question": ["supermariobros01"]
+		},
+	]
+}
