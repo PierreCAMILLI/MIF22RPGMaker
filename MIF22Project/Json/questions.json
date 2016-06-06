@@ -1,6 +1,8 @@
 {
 	"questions": [
 		{
+<<<<<<< HEAD
+=======
 			"id": "mario01",
 			"question": "En quelle année est sorti Super Mario Bros ?",
 			"choix": [
@@ -16,10 +18,11 @@
 			],
 		},
 		{
+>>>>>>> 4cb2cf9eeecb483e5951d233a7c075d82766a4ad
 			"id": "fps01",
 			"question": "Quel est le tout premier FPS ?",
 			"choix": [
-				"Doom",
+				"Maze War",
 				"Quake",
 				"Half-Life",
 				"Call Of Duty"
@@ -34,6 +37,17 @@
 				"Saturn",
 				"Dreamcast"
 			],
+		},
+		{
+			"id": "sega02",
+			"question": "De quelle console s'inspire la Master System ?",
+			"choix": [
+				"NES",
+				"Sega Mark-III",
+				"Game Boy",
+				"Nintendo 64"
+			],
+			"reponse": 2
 		},
 		{
 			"id": "pokemon01",
@@ -95,6 +109,17 @@
 			],
 		},
 		{
+			"id": "spaceinvaders03",
+			"question": "Quel est le but de Space Ivaders ?",
+			"choix": [
+				"Chercher la princesse",
+				"Mettre des buts",
+				"Tuer des aliens",
+				"Capturer des créatures"
+			],
+			"reponse": 3
+		},
+		{
 			"id": "streetfighter01",
 			"question": "Quelle entreprise a développée Street Fighter ?",
 			"choix": [
@@ -146,7 +171,7 @@
 		},
 		{
 			"id": "donkeykong02",
-			"question": "Qu'est ce que Mario doit récuperer pour finir le jeu ?",
+			"question": "Qu'est ce que Mario doit récuperer pour gagner la partie ?",
 			"choix": [
 				"Une princesse",
 				"Un cocktail",
@@ -253,7 +278,20 @@
 			],
 		},
 		{
-			"id": "supermariobros201",
+			"id": "mario01",
+			"question": "En quelle année est sorti Super Mario Bros ?",
+			"choix": [
+				"1983",
+				"1984",
+				"1985",
+				"1986",
+				"1987",
+				"1988"
+			],
+			"reponse": 3
+		},
+		{
+			"id": "supermariobros02",
 			"question": "Sous quel nom le second épisode de Super Mario Bros tel qu'il est sorti au Japon est connu en occident ?",
 			"choix": [
 				"Super Mario Bros : The Lost Levels",
@@ -262,7 +300,7 @@
 			],
 		},
 		{
-			"id": "supermariobros202",
+			"id": "supermariobros03",
 			"question": "Quelle entreprise a développée Super Mario Bros 2 ?",
 			"choix": [
 				"Nintendo"
@@ -272,7 +310,7 @@
 			],
 		},
 		{
-			"id": "supermariobros203",
+			"id": "supermariobros04",
 			"question": "De quel jeu est tiré la version occidentale de Super Mario Bros 2 ?",
 			"choix": [
 				"Doki Doki Panic",
@@ -280,5 +318,16 @@
 				"Super Mario Bros 2"
 			],
 		},
+		{
+			"id": "rts01",
+			"question": "Quel est le jeu de type STR le plus vendu de tous les temps ?",
+			"choix": [
+				"Warcraft : Orc and Humans",
+				"Warcraft II : Tides of Darkness",
+				"Stacraft : Brood War",
+				"Commande and Conquer : Conflit du Tibérium"
+			],
+			"reponse": 3
+		}
 	]
 }
