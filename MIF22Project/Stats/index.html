@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Line Chart</title>
+    <script src="dist/Chart.bundle.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style>
+    canvas{
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div style="width:75%;">
+        <canvas id="canvas"></canvas>
+    </div>
+    <br>
+    <script>
+        var infos;
+        
+       /* load().then(function(result) {
+            var correctes = result[1][1] - result[1][2];
+            console.log(correctes);
+            var data = {
+                labels: ["Nombre total de questions", "Questions correctement répondues", "Questions mal répondues"],
+                datasets: [
+                    {
+                        label: "",
+                        fillColor: "rgba(31, 116, 216, 0.5)",
+                        strokeColor: "rgba(13, 64, 180, 0.8)",
+                        highlightFill: "rgba(13, 137, 229, 0.75)",
+                        highlightStroke: "rgb(68, 166, 227)",
+                        data: [itemsVal[1], correctes, itemsVal[2]]
+                    }
+                ]
+            };
+            
+            window.onload = function() {
+                var ctx = document.getElementById("canvas").getContext("2d");
+                window.myBar = new Chart(ctx, {
+                    type: 'bar',
+                    data: data,
+                    options: {
+                        // Elements options apply to all of the options unless overridden in a dataset
+                        // In this case, we are setting the border of each bar to be 2px wide and green
+                        elements: {
+                            rectangle: {
+                                borderWidth: 2,
+                                borderColor: 'rgb(11, 138, 217)',
+                                borderSkipped: 'bottom'
+                            }
+                        },
+                        responsive: true,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Chart.js Bar Chart'
+                        }
+                    }
+                });
+            };           
+            console.log(result);
+        }).catch(function(error) {
+            console.log("Erreur !");
+        });
+        */
+        
+        
+        
+        
+        
+       var test =  $.getJSON('stats.json', function(data) {
+                $.each( data, function( key, val ) {
+                    infos = data;
+                });
+            })
+        .done(function() {
+            console.log( "second success" );
+            barDetail();
+        })
+        .fail(function() {
+            console.log( "error" );
+        })
+        .always(function() {
+            console.log( "complete" );
+        });
+ 
+        test.complete(function() {
+            console.log( "second complete" );
+        });
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        function barGeneral(){
+            var correctes = infos.general.repTotales - infos.general.rateRep;
+            var data = {
+                labels: ["Nombre total de questions", "Questions correctement repondues", "Questions mal repondues"],
+                datasets: [
+                    {
+                        label: "",
+                        fillColor: "rgba(31, 116, 216, 0.5)",
+                        strokeColor: "rgba(13, 64, 180, 0.8)",
+                        highlightFill: "rgba(13, 137, 229, 0.75)",
+                        highlightStroke: "rgb(68, 166, 227)",
+                        data: [infos.general.repTotales, correctes, infos.general.rateRep]
+                    }
+                ]
+            };
+            
+            window.onload = function() {
+                var ctx = document.getElementById("canvas").getContext("2d");
+                window.myBar = new Chart(ctx, {
+                    type: 'bar',
+                    data: data,
+                    options: {
+                        // Elements options apply to all of the options unless overridden in a dataset
+                        // In this case, we are setting the border of each bar to be 2px wide and green
+                        elements: {
+                            rectangle: {
+                                borderWidth: 2,
+                                borderColor: 'rgb(11, 138, 217)',
+                                borderSkipped: 'bottom'
+                            }
+                        },
+                        responsive: true,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Chart.js Bar Chart'
+                        }
+                    }
+                });
+            };    
+        }
+        
+        
+        function barDetail(){
+            var dataEng = {
+                labels: ["Nombre total de questions", "Questions correctement repondues", "Questions mal repondues"],
+                datasets: [
+                    {
+                        label: "",
+                        fillColor: "rgba(31, 116, 216, 0.5)",
+                        strokeColor: "rgba(13, 64, 180, 0.8)",
+                        highlightFill: "rgba(13, 137, 229, 0.75)",
+                        highlightStroke: "rgb(68, 166, 227)",
+                        data: [1, 2, 3]
+                    },
+                    {
+                        label: "",
+                        fillColor: "rgba(31, 116, 216, 0.5)",
+                        strokeColor: "rgba(13, 64, 180, 0.8)",
+                        highlightFill: "rgba(13, 137, 229, 0.75)",
+                        highlightStroke: "rgb(68, 166, 227)",
+                        data: [4, 5, 3]
+                    }
+                ]
+            };
+            
+            for(var i = 0; i < infos.detail.length; i++){
+                var correctes = infos.detail[i].tentative - infos.detail[i].rate;
+                datatmp = [infos.detail[i].tentative, correctes, infos.detail[i].rate];
+                dataEng.datasets[0].data.push(datatmp);
+            }
+            
+            console.log(dataEng.datasets[0].data[0]);
+
+            
+            window.onload = function() {
+                var ctx = document.getElementById("canvas").getContext("2d");
+                window.myBar = new Chart(ctx, {
+                    type: 'bar',
+                    data: dataEng,
+                    options: {
+                        // Elements options apply to all of the options unless overridden in a dataset
+                        // In this case, we are setting the border of each bar to be 2px wide and green
+                        elements: {
+                            rectangle: {
+                                borderWidth: 2,
+                                borderColor: 'rgb(11, 138, 217)',
+                                borderSkipped: 'bottom'
+                            }
+                        },
+                        responsive: true,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Chart.js Bar Chart'
+                        }
+                    }
+                });
+            };    
+        }
+        
+
+    
+        
+    </script>
+</body>
+
+</html>

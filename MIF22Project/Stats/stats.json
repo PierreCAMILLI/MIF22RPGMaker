@@ -1,0 +1,4 @@
+{
+"general": {"nom": "mickael", "repTotales": 2, "rateRep": 1},
+"detail": [{"id": "pokemon01", "tentative": 1, "rate": 0},{"id": "pokemon02", "tentative": 1, "rate": 1}]
+}
