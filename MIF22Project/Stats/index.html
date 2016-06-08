@@ -15,65 +15,12 @@
 </head>
 
 <body>
-    <div style="width:75%;">
-        <canvas id="canvas"></canvas>
+    <h1 style="text-align: center">Statistiques de jeu : Collection Quest</h1>
+    <div id="canvas-holder" >
+        <canvas id="canvasDetail" width="400" height="200"/>
     </div>
     <br>
     <script>
-        var infos;
-        
-       /* load().then(function(result) {
-            var correctes = result[1][1] - result[1][2];
-            console.log(correctes);
-            var data = {
-                labels: ["Nombre total de questions", "Questions correctement répondues", "Questions mal répondues"],
-                datasets: [
-                    {
-                        label: "",
-                        fillColor: "rgba(31, 116, 216, 0.5)",
-                        strokeColor: "rgba(13, 64, 180, 0.8)",
-                        highlightFill: "rgba(13, 137, 229, 0.75)",
-                        highlightStroke: "rgb(68, 166, 227)",
-                        data: [itemsVal[1], correctes, itemsVal[2]]
-                    }
-                ]
-            };
-            
-            window.onload = function() {
-                var ctx = document.getElementById("canvas").getContext("2d");
-                window.myBar = new Chart(ctx, {
-                    type: 'bar',
-                    data: data,
-                    options: {
-                        // Elements options apply to all of the options unless overridden in a dataset
-                        // In this case, we are setting the border of each bar to be 2px wide and green
-                        elements: {
-                            rectangle: {
-                                borderWidth: 2,
-                                borderColor: 'rgb(11, 138, 217)',
-                                borderSkipped: 'bottom'
-                            }
-                        },
-                        responsive: true,
-                        legend: {
-                            position: 'top',
-                        },
-                        title: {
-                            display: true,
-                            text: 'Chart.js Bar Chart'
-                        }
-                    }
-                });
-            };           
-            console.log(result);
-        }).catch(function(error) {
-            console.log("Erreur !");
-        });
-        */
-        
-        
-        
-        
         
        var test =  $.getJSON('stats.json', function(data) {
                 $.each( data, function( key, val ) {
@@ -82,6 +29,7 @@
             })
         .done(function() {
             console.log( "second success" );
+            //pieGeneral();
             barDetail();
         })
         .fail(function() {
@@ -95,97 +43,89 @@
             console.log( "second complete" );
         });
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        function barGeneral(){
+
+        function pieGeneral(){
             var correctes = infos.general.repTotales - infos.general.rateRep;
             var data = {
-                labels: ["Nombre total de questions", "Questions correctement repondues", "Questions mal repondues"],
+                labels: ["Questions correctement repondues", "Questions mal repondues"],
                 datasets: [
                     {
                         label: "",
-                        fillColor: "rgba(31, 116, 216, 0.5)",
-                        strokeColor: "rgba(13, 64, 180, 0.8)",
-                        highlightFill: "rgba(13, 137, 229, 0.75)",
-                        highlightStroke: "rgb(68, 166, 227)",
-                        data: [infos.general.repTotales, correctes, infos.general.rateRep]
+                        backgroundColor: ["rgb(68, 166, 227)", "rgb(68, 166, 0)"],
+                        data: [correctes, infos.general.rateRep]
                     }
                 ]
             };
             
             window.onload = function() {
-                var ctx = document.getElementById("canvas").getContext("2d");
-                window.myBar = new Chart(ctx, {
-                    type: 'bar',
-                    data: data,
-                    options: {
-                        // Elements options apply to all of the options unless overridden in a dataset
-                        // In this case, we are setting the border of each bar to be 2px wide and green
-                        elements: {
-                            rectangle: {
-                                borderWidth: 2,
-                                borderColor: 'rgb(11, 138, 217)',
-                                borderSkipped: 'bottom'
-                            }
-                        },
-                        responsive: true,
-                        legend: {
-                            position: 'top',
-                        },
-                        title: {
-                            display: true,
-                            text: 'Chart.js Bar Chart'
-                        }
-                    }
+                var ctx = document.getElementById("canvasGlobal").getContext("2d");
+                window.myBar = new Chart(ctx,{
+                    type: 'pie',
+                    data: data
                 });
             };    
         }
         
         
         function barDetail(){
-            var dataEng = {
-                labels: ["Nombre total de questions", "Questions correctement repondues", "Questions mal repondues"],
-                datasets: [
-                    {
-                        label: "",
-                        fillColor: "rgba(31, 116, 216, 0.5)",
-                        strokeColor: "rgba(13, 64, 180, 0.8)",
-                        highlightFill: "rgba(13, 137, 229, 0.75)",
-                        highlightStroke: "rgb(68, 166, 227)",
-                        data: [1, 2, 3]
-                    },
-                    {
-                        label: "",
-                        fillColor: "rgba(31, 116, 216, 0.5)",
-                        strokeColor: "rgba(13, 64, 180, 0.8)",
-                        highlightFill: "rgba(13, 137, 229, 0.75)",
-                        highlightStroke: "rgb(68, 166, 227)",
-                        data: [4, 5, 3]
-                    }
-                ]
-            };
-            
+            var clef = [];
+            var valeur = [];
+            var ajouter = true;
+            var indice = 0;
             for(var i = 0; i < infos.detail.length; i++){
-                var correctes = infos.detail[i].tentative - infos.detail[i].rate;
-                datatmp = [infos.detail[i].tentative, correctes, infos.detail[i].rate];
-                dataEng.datasets[0].data.push(datatmp);
+                for(var j = 0; j < clef.length; j++){
+                    if(infos.detail[i].id.replace(/[0-9]/g, '') == clef[j]){
+                        ajouter = false;
+                        indice = j;
+                        break;
+                    }
+                }
+                if(ajouter){
+                    console.log(infos.detail[i].id.replace(/[0-9]/g, ''));
+                    clef.push(infos.detail[i].id.replace(/[0-9]/g, ''));
+                }
+                else ajouter = true;
+            }
+            for(var j = 0; j < clef.length; j++){
+                var cpt = 0;
+                var somme = 0;
+                for(var i = 0; i < infos.detail.length; i++){
+                    if(infos.detail[i].id.replace(/[0-9]/g, '') == clef[j]){
+                        somme += ((infos.detail[i].tentative - infos.detail[i].rate) * 100) / infos.detail[i].tentative;
+                        cpt += 1;
+                    }
+                }
+                valeur.push(somme / cpt);                
             }
             
-            console.log(dataEng.datasets[0].data[0]);
+            var dataEng = {
+                labels: ["Questions"],
+                datasets: []
+            };
+            
+            for(var i = 0; i < clef.length; i++){
+                var correctes = infos.detail[i].tentative - infos.detail[i].rate;
+                var pourcent = valeur[i];
+                var bleu = 250 - i * 50;
+                datatmp = {
+                        label: clef[i],
+                        backgroundColor: "rgb(250, "+bleu+", 100)",
+                        borderColor: "rgb(250, "+bleu+", 0)",
+                        data: [pourcent]
+                };
+                dataEng.datasets.push(datatmp);
+            }
+            
+            //Ajout du zero
+            datatmp = {
+                backgroundColor: "rgb(68, 166, 227)",
+                data: [0]
+            };
+            dataEng.datasets.push(datatmp);
 
             
             window.onload = function() {
-                var ctx = document.getElementById("canvas").getContext("2d");
+                var ctx = document.getElementById("canvasDetail").getContext("2d");
                 window.myBar = new Chart(ctx, {
                     type: 'bar',
                     data: dataEng,
@@ -195,17 +135,18 @@
                         elements: {
                             rectangle: {
                                 borderWidth: 2,
-                                borderColor: 'rgb(11, 138, 217)',
+                                
                                 borderSkipped: 'bottom'
                             }
                         },
                         responsive: true,
+                        responsiveAnimationDuration: 1000,
                         legend: {
                             position: 'top',
                         },
                         title: {
                             display: true,
-                            text: 'Chart.js Bar Chart'
+                            text: 'Pourcentage de réussite pour chaque type de questions répondu au cours du jeu'
                         }
                     }
                 });
