@@ -1,12 +1,24 @@
 {
-	"Cours": [
+	"cours": [
 		{
-			"id": "rts",
+			"id": "starcraft",
 			"texte": "StarCraft est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment. Avec plus de onze 
 			 millions de copies vendues dans le monde, il est l’un des jeux vidéo sur PC les mieux vendus et reste à ce jour le jeu de 
 			 stratégie en temps réel le plus vendu de tous les temps.",
 			"question": ["rts01"]
 		},
+		{
+			"id": "str",
+			"texte": "Le jeu de stratégie en temps réel est un type de jeu de stratégie particulier qui notamment et par opposition 
+			au jeu de stratégie au tour par tour n’utilise pas un découpage arbitraire du temps en tours de jeu. 
+			Exclusif au domaine du jeu vidéo, ce type de jeu demande en plus de la réflexion, une certaine dose de 
+			réactivité, voire de réflexes pour les jeux les plus rapides. De création relativement récente, le genre a été initié au 
+			début des années 1990 grâce au jeu Dune II créé en 1992 par le studio Westwood. Petit à petit, les jeux de stratégie en 
+			temps réel ont acquis une popularité supérieure aux jeux de stratégie au tour par tour auprès du grand public, avec des 
+			licences phares telles que la série des Warcraft des studios Blizzard Entertainment ou celle des Age of Empires des 
+			studios.",
+			"question": ["rts02"]
+		},		
 		{
 			"id": "supermariobros",
 			"texte": "Cet épisode n'est pas un jeu original puisqu'il s'agit de l'adaptation de Yume Kōjō: Doki Doki Panic, un jeu Nintendo 
@@ -16,7 +28,7 @@
 			"question": ["supermariobros203", "supermariobros201"]
 		},
 		{
-			"id": "duckhunt",
+			"id": "neszapper",
 			"texte": "Le NES Zapper (ou Famicom Light Bite au Japon) est un pistolet électronique, vendu comme accessoire de la Nintendo 
 			Entertainment System (NES) en 1985 et de la Nintendo Family Computer (Famicom) en 1984. La version japonaise est une 
 			représentation réaliste d'un revolver, alors que la version occidentale ressemble plus à un jouet, gardant le schéma de couleur 
@@ -24,9 +36,17 @@
 			"question": ["duckhunt02", "duckhunt01"]
 		},
 		{
+			"id": "duckhunt",
+			"texte": "Duck Hunt est un jeu vidéo de tir au pistolet développé et édité par Nintendo, sorti en 1985 sur NES. Il est 
+			le premier jeu à exploiter le pistolet de la console, le NES Zapper, via une simulation de chasse aux canards et de tir 
+			aux pigeons d'argile. L'objectif est de toucher des cibles mouvantes en visant et tirant vers l'écran du téléviseur 
+			avec le pistolet de la console",
+			"question": ["duckhunt02", "duckhunt01"]
+		},
+		{
 			"id": "dragonquest",
 			"texte": "Dragon Quest est édité par Enix en 1986. Le jeu est concu par Yuji Horii qui est surtout connu pour son travail sur 
-			Dragon Quest. Le compositeur le plus connu ayant travailé sur ce jeu est Koichi Sugiyama ",
+			Dragon Quest. Le compositeur le plus connu ayant travaillé sur ce jeu est Koichi Sugiyama ",
 			"question": ["dragonquest03"]
 		},
 		{
