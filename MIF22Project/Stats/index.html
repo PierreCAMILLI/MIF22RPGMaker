@@ -15,21 +15,22 @@
 </head>
 
 <body>
-    <h1 style="text-align: center">Statistiques de jeu : Collection Quest</h1>
+    <h1 style="text-align: center; margin-bottom: 10%;">Statistiques de jeu : Collection Quest</h1>
     <div id="canvas-holder" >
-        <canvas id="canvasDetail" width="400" height="200"/>
+        <canvas id="canvasGlobal" width="650" style='margin-bottom: 10%;'></canvas>
+        <canvas id="canvasDetail" height="100"></canvas>
     </div>
     <br>
     <script>
         
-       var test =  $.getJSON('stats.json', function(data) {
+       var generer =  $.getJSON('stats.json', function(data) {
                 $.each( data, function( key, val ) {
                     infos = data;
                 });
             })
         .done(function() {
             console.log( "second success" );
-            //pieGeneral();
+            pieGeneral();
             barDetail();
         })
         .fail(function() {
@@ -51,7 +52,7 @@
                 datasets: [
                     {
                         label: "",
-                        backgroundColor: ["rgb(68, 166, 227)", "rgb(68, 166, 0)"],
+                        backgroundColor: ["rgb(68, 166, 0)", "rgb(221, 26, 26)"],
                         data: [correctes, infos.general.rateRep]
                     }
                 ]
@@ -61,7 +62,27 @@
                 var ctx = document.getElementById("canvasGlobal").getContext("2d");
                 window.myBar = new Chart(ctx,{
                     type: 'pie',
-                    data: data
+                    data: data,
+                    options: {
+                        // Elements options apply to all of the options unless overridden in a dataset
+                        // In this case, we are setting the border of each bar to be 2px wide and green
+                        elements: {
+                            rectangle: {
+                                borderWidth: 2,
+                                
+                                borderSkipped: 'bottom'
+                            }
+                        },
+                        responsive: true,
+                        responsiveAnimationDuration: 2000,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Nombre de questions total auxquelles a repondu le joueur'
+                        }
+                    }
                 });
             };    
         }
@@ -106,7 +127,7 @@
             for(var i = 0; i < clef.length; i++){
                 var correctes = infos.detail[i].tentative - infos.detail[i].rate;
                 var pourcent = valeur[i];
-                var bleu = 250 - i * 50;
+                var bleu = 250 - i * 20;
                 datatmp = {
                         label: clef[i],
                         backgroundColor: "rgb(250, "+bleu+", 100)",
@@ -118,14 +139,13 @@
             
             //Ajout du zero
             datatmp = {
-                backgroundColor: "rgb(68, 166, 227)",
+                backgroundColor: "rgba(68, 166, 227, 0)",
                 data: [0]
             };
             dataEng.datasets.push(datatmp);
 
             
-            window.onload = function() {
-                var ctx = document.getElementById("canvasDetail").getContext("2d");
+                           var ctx = document.getElementById("canvasDetail").getContext("2d");
                 window.myBar = new Chart(ctx, {
                     type: 'bar',
                     data: dataEng,
@@ -140,7 +160,7 @@
                             }
                         },
                         responsive: true,
-                        responsiveAnimationDuration: 1000,
+                        responsiveAnimationDuration: 2000,
                         legend: {
                             position: 'top',
                         },
@@ -149,8 +169,7 @@
                             text: 'Pourcentage de reussite pour chaque type de questions repondues au cours du jeu'
                         }
                     }
-                });
-            };    
+                });  
         }
         
 
