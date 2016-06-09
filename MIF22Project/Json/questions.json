@@ -13,7 +13,7 @@
 				"1987",
 				"1988",
 				"1989"
-			],
+			]
 		},
 		{
 			"id": "fps01",
@@ -23,7 +23,7 @@
 				"Quake",
 				"Half-Life",
 				"Call Of Duty"
-			],
+			]
 		},
 		{
 			"id": "sega01",
@@ -33,7 +33,7 @@
 				"Megadrive",
 				"Saturn",
 				"Dreamcast"
-			],
+			]
 		},
 		{
 			"id": "sega02",
@@ -43,8 +43,7 @@
 				"Sega Mark-III",
 				"Game Boy",
 				"Nintendo 64"
-			],
-			"reponse": 2
+			]
 		},
 		{
 			"id": "pokemon01",
@@ -54,7 +53,7 @@
 				"Bulbizarre",
 				"Salamèche",
 				"Carapuce"
-			],
+			]
 		},
 		{
 			"id": "pokemon02",
@@ -64,7 +63,7 @@
 				"1998",
 				"2001",
 				"2003"
-			],
+			]
 		},
 		{
 			"id": "pokemon03",
@@ -74,7 +73,7 @@
 				"140",
 				"178",
 				"190"
-			],
+			]
 		},
 		{
 			"id": "pokemon04",
@@ -83,7 +82,7 @@
 				"Broto",
 				"Johto",
 				"Kanto",
-			],
+			]
 		},
 		{
 			"id": "spaceinvaders01",
@@ -93,7 +92,7 @@
 				"1976",
 				"1980",
 				"1982"
-			],
+			]
 		},
 		{
 			"id": "spaceinvaders02",
@@ -103,7 +102,7 @@
 				"Namco",
 				"Nintendo",
 				"Capcom"
-			],
+			]
 		},
 		{
 			"id": "spaceinvaders03",
@@ -113,8 +112,7 @@
 				"Mettre des buts",
 				"Tuer des aliens",
 				"Capturer des créatures"
-			],
-			"reponse": 3
+			]
 		},
 		{
 			"id": "streetfighter01",
@@ -124,7 +122,7 @@
 				"Taito",
 				"Namco",
 				"Nintendo"
-			],
+			]
 		},
 		{
 			"id": "streetfighter02",
@@ -134,7 +132,7 @@
 				"Ken",
 				"Chun-Li",
 				"Zangief"
-			],
+			]
 		},
 		{
 			"id": "streetfighter03",
@@ -144,7 +142,7 @@
 				"5",
 				"8",
 				"11"
-			],
+			]
 		},
 		{
 			"id": "streetfighter04",
@@ -154,7 +152,7 @@
 				"Playstation 3",
 				"XBOX 360",
 				"PC"
-			],
+			]
 		},
 		{
 			"id": "donkeykong01",
@@ -164,7 +162,7 @@
 				"Namco",
 				"Taito",
 				"Capcom"
-			],
+			]
 		},
 		{
 			"id": "donkeykong02",
@@ -174,7 +172,7 @@
 				"Un cocktail",
 				"Un ballon",
 				"Un champignon"
-			],
+			]
 		},
 		{
 			"id": "donkeykong03",
@@ -184,7 +182,7 @@
 				"Richard Garfield",
 				"Gary Gygax",
 				"Charles Darrow"
-			],
+			]
 		},
 		{
 			"id": "finalfantasy01",
@@ -194,7 +192,7 @@
 				"FPS (First Person Shooter)",
 				"MMORPG (Massivement Multijoueur Online Role Playing Game)",
 				"STR (Stratégie en Temps Réel)"
-			],
+			]
 		},
 		{
 			"id": "finalfantasy02",
@@ -204,7 +202,7 @@
 				"GameBoy Advance",
 				"GameCube",
 				"Nintendo DS"
-			],
+			]
 		},
 		{
 			"id": "finalfantasy03",
@@ -214,7 +212,7 @@
 				"Junichi Masuda",
 				"Joachim Garraud",
 				"Koji Kondo"
-			],
+			]
 		},
 		{
 			"id": "dragonquest01",
@@ -223,7 +221,7 @@
 				"Yuji Horii",
 				"Akira Toriyama",
 				"Nicolas Cage"
-			],
+			]
 		},
 		{
 			"id": "dragonquest02",
@@ -232,7 +230,7 @@
 				"Koichi Sugiyama"
 				"Junichi Masuda",
 				"Nobuo Uematsu",
-			],
+			]
 		},
 		{
 			"id": "dragonquest03",
@@ -242,7 +240,7 @@
 				"Namco",
 				"EA",
 				"Nintendo"
-			],
+			]
 		},
 		{
 			"id": "duckhunt01",
@@ -252,7 +250,7 @@
 				"Playstation",
 				"GameBoy Color",
 				"GameCube",
-			],
+			]
 		},
 		{
 			"id": "duckhunt02",
@@ -262,7 +260,7 @@
 				"Super Mario Bros 2",
 				"Dragon Quest",
 				"Final Fantasy"
-			],
+			]
 		},
 		{
 			"id": "duckhunt03",
@@ -272,7 +270,7 @@
 				"1980",
 				"1992",
 				"1998"
-			],
+			]
 		},
 		{
 			"id": "mario01",
@@ -284,8 +282,7 @@
 				"1986",
 				"1987",
 				"1988"
-			],
-			"reponse": 3
+			]
 		},
 		{
 			"id": "supermariobros02",
@@ -294,7 +291,7 @@
 				"Super Mario Bros : The Lost Levels",
 				"Super Mario Bros 2",
 				"Doki Doki Panic",
-			],
+			]
 		},
 		{
 			"id": "supermariobros03",
@@ -304,7 +301,7 @@
 				"Namco",
 				"EA",
 				"Enix",
-			],
+			]
 		},
 		{
 			"id": "supermariobros04",
@@ -313,7 +310,7 @@
 				"Doki Doki Panic",
 				"Super Mario Bros : The Lost Levels",
 				"Super Mario Bros 2"
-			],
+			]
 		},
 		{
 			"id": "rts01",
@@ -323,8 +320,7 @@
 				"Warcraft II : Tides of Darkness",
 				"Stacraft : Brood War",
 				"Commande and Conquer : Conflit du Tibérium"
-			],
-			"reponse": 3
+			]
 		}
 	]
 }
