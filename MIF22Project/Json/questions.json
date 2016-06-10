@@ -39,8 +39,8 @@
 			"id": "sega02",
 			"question": "De quelle console s'inspire la Master System ?",
 			"choix": [
-				"NES",
 				"Sega Mark-III",
+				"NES",
 				"Game Boy",
 				"Nintendo 64"
 			]
@@ -108,9 +108,9 @@
 			"id": "spaceinvaders03",
 			"question": "Quel est le but de Space Ivaders ?",
 			"choix": [
-				"Chercher la princesse",
-				"Mettre des buts",
-				"Tuer des aliens",
+				"Tirer sur des aliens",
+				"Chercher une princesse",
+				"Mettre des buts dans une cage",
 				"Capturer des créatures"
 			]
 		},
@@ -276,9 +276,9 @@
 			"id": "mario01",
 			"question": "En quelle année est sorti Super Mario Bros ?",
 			"choix": [
+				"1985",
 				"1983",
 				"1984",
-				"1985",
 				"1986",
 				"1987",
 				"1988"
@@ -316,9 +316,9 @@
 			"id": "rts01",
 			"question": "Quel est le jeu de type STR le plus vendu de tous les temps ?",
 			"choix": [
+				"Stacraft : Brood War",
 				"Warcraft : Orc and Humans",
 				"Warcraft II : Tides of Darkness",
-				"Stacraft : Brood War",
 				"Commande and Conquer : Conflit du Tibérium"
 			]
 		}
