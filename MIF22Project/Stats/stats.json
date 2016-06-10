@@ -1,4 +1,4 @@
 {
-"general": {"nom": "mickael", "repTotales": 4, "rateRep": 2},
-"detail": [{"id": "pokemon01", "tentative": 3, "rate": 2},{"id": "duckhunt02", "tentative": 1, "rate": 0},{"id": "sega01", "tentative": 1, "rate": 0},{"id": "sega02", "tentative": 1, "rate": 1}]
+"general": {"nom": "mickael", "repTotales": 0, "rateRep": 0},
+"detail": []
 }
