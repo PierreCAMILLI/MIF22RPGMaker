@@ -39,8 +39,8 @@
 			"id": "sega02",
 			"question": "De quelle console s'inspire la Master System ?",
 			"choix": [
-				"NES",
 				"Sega Mark-III",
+				"NES",
 				"Game Boy",
 				"Nintendo 64"
 			]
@@ -273,18 +273,6 @@
 			]
 		},
 		{
-			"id": "mario01",
-			"question": "En quelle année est sorti Super Mario Bros ?",
-			"choix": [
-				"1983",
-				"1984",
-				"1985",
-				"1986",
-				"1987",
-				"1988"
-			]
-		},
-		{
 			"id": "supermariobros02",
 			"question": "Sous quel nom le second épisode de Super Mario Bros tel qu'il est sorti au Japon est connu en occident ?",
 			"choix": [
@@ -316,9 +304,9 @@
 			"id": "rts01",
 			"question": "Quel est le jeu de type STR le plus vendu de tous les temps ?",
 			"choix": [
+				"Stacraft : Brood War",
 				"Warcraft : Orc and Humans",
 				"Warcraft II : Tides of Darkness",
-				"Stacraft : Brood War",
 				"Commande and Conquer : Conflit du Tibérium"
 			]
 		}

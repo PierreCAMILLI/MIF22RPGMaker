@@ -4,7 +4,9 @@
 <head>
     <title>Line Chart</title>
     <script src="dist/Chart.bundle.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="jquery3.0.0.js"></script>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
     <style>
     canvas{
         -moz-user-select: none;
@@ -17,19 +19,20 @@
 <body>
     <h1 style="text-align: center; margin-bottom: 10%;">Statistiques de jeu : Collection Quest</h1>
     <div id="canvas-holder" >
+        <canvas id="canvasTempsDeJeu" height="40" style='margin-bottom: 10%;'></canvas>
         <canvas id="canvasGlobal" width="650" style='margin-bottom: 10%;'></canvas>
         <canvas id="canvasDetail" height="100"></canvas>
     </div>
     <br>
     <script>
         
-       var generer =  $.getJSON('stats.json', function(data) {
-                $.each( data, function( key, val ) {
-                    infos = data;
-                });
-            })
+       	var generer =  $.getJSON('stats.json', function(data) {
+            $.each( data, function( key, val ) {
+                infos = data;
+            });
+        })
         .done(function() {
-            console.log( "second success" );
+            barTempsDeJeu();
             pieGeneral();
             barDetail();
         })
@@ -39,16 +42,12 @@
         .always(function() {
             console.log( "complete" );
         });
- 
-        test.complete(function() {
-            console.log( "second complete" );
-        });
         
 
         function pieGeneral(){
             var correctes = infos.general.repTotales - infos.general.rateRep;
             var data = {
-                labels: ["Questions correctement repondues", "Questions mal repondues"],
+                labels: ["Questions correctement répondues", "Questions mal répondues"],
                 datasets: [
                     {
                         label: "",
@@ -80,7 +79,7 @@
                         },
                         title: {
                             display: true,
-                            text: 'Nombre de questions total auxquelles a repondu le joueur'
+                            text: 'Nombre de questions auxquelles a répondu le joueur'
                         }
                     }
                 });
@@ -139,6 +138,7 @@
             
             //Ajout du zero
             datatmp = {
+            	label: "Zoomer",
                 backgroundColor: "rgba(68, 166, 227, 0)",
                 data: [0]
             };
@@ -166,12 +166,70 @@
                         },
                         title: {
                             display: true,
-                            text: 'Pourcentage de reussite pour chaque type de questions repondues au cours du jeu'
+                            text: 'Pourcentage de réussite pour chaque type de questions répondues au cours du jeu'
                         }
                     }
                 });  
         }
+
         
+        function barTempsDeJeu(){
+            var dataEng = {
+                labels: [],
+                datasets: []
+            };
+            datatmp = {
+            	label: "Temps estimé pour finir le jeu",
+                backgroundColor: "rgb(250, 100, 100)",
+                data: [3]
+            };
+            dataEng.datasets.push(datatmp);
+            datatmp = {
+            	label: "Temps de jeu total",
+                backgroundColor: "rgb(250, 150, 100)",
+                data: [2]
+            };
+            dataEng.datasets.push(datatmp);
+            datatmp = {
+            	label: "Temps de jeu moyen par session",
+                backgroundColor: "rgb(250, 200, 100)",
+                data: [1]
+            };
+            dataEng.datasets.push(datatmp);
+            datatmp = {
+            	label: "Zoomer",
+                backgroundColor: "rgba(150, 200, 150, 0)",
+                data: [0]
+            };
+            dataEng.datasets.push(datatmp);
+
+            
+                           var ctx = document.getElementById("canvasTempsDeJeu").getContext("2d");
+                window.myBar = new Chart(ctx, {
+                    type: 'horizontalBar',
+                    data: dataEng,
+                    options: {
+                        // Elements options apply to all of the options unless overridden in a dataset
+                        // In this case, we are setting the border of each bar to be 2px wide and green
+                        elements: {
+                            rectangle: {
+                                borderWidth: 2,
+                                
+                                borderSkipped: 'bottom'
+                            }
+                        },
+                        responsive: true,
+                        responsiveAnimationDuration: 2000,
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Temps de jeu en heure'
+                        }
+                    }
+                });  
+        }
 
     
         
