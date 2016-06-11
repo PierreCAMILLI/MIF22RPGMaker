@@ -86,7 +86,7 @@
 		},
 		{
 			"id": "spaceinvaders",
-			"texte": "Space Invaders est un shoot them up fixe en deux dimensions développé par Taito en 1978. 
+			"texte": "Space Invaders est un shoot'em up fixe en deux dimensions développé par Taito en 1978. 
 			Le joueur contrôle un canon laser qu'il peut déplacer 
 			horizontalement, au bas de l'écran. Dans les airs, des rangées d'aliens se déplacent latéralement tout en se rapprochant 
 			progressivement du sol et en lançant des missiles. L'objectif est de détruire avec le canon laser une vague ennemie.",
@@ -124,6 +124,44 @@
 			Maze, en 1987, introduit le jeu multijoueur en réseau local et devient le premier jeu de tir à la première personne sur 
 			console de jeux vidéo",
 			"question": ["fps01"]
+		},
+		{
+			"id": "sonic",
+			"texte": "Sonic The Hedgehog est un jeu créé par la société Sega en 1991 sur console Sega Megadrive et Master System. Ce jeu se
+			démarquait à l'époque par une rapidité d'action inédite sur console due à la puissance de la console Megadrive. C'est un jeu de
+			plateforme en vue de côté où le joueur contrôle Sonic le Hérisson et évolue dans différents niveaux afin de déjouer les plans du
+			maléfique Dr Robotnik (Eggman aux Etats-Unis). Le jeu rencontra un franc succès et s'est vendu à plus de 15 millions
+			d'exemplaires à travers le monde. Aujourd'hui, la licence Sonic The Hedgehog est la licence la plus connue de Sega à tel point
+			que Sonic est devenu la mascotte de l'entreprise. Aujourd'hui encore, la série continue de sortir de nouveaux jeux régulièrement.",
+			"question": ["sonic01","sonic02","sonic03"]
+		},
+		{
+			"id": "zelda",
+			"texte": "The Legend Of Zelda est un jeu créé par la société Nintendo en 1986 pour la console NES (Nintendo Entertainment System).
+			Ce jeu proposait au joueur d'incarner un aventurier du nom de Link pour parcourir le monde d'Hyrule et sauver la princesse Zelda
+			des griffes du maléfique Ganon. Pour cela, le joueur doit parcourir neuf donjons au cours desquels il doit récupérer des objets
+			pour son équipement, résoudre des énigmes et vaincre des ennemis. Le jeu est connu pour avoir posé les bases du jeu d'action/aventure.
+			Ce fût également un des premiers jeux à bénéficier d'une pile de sauvegarde pour que le joueur puisse sauvegarder sa partie afin qu'il
+			puisse arrêter de jouer et continuer plus tard. Le jeu a également été reconnu pour sa bande sonore de grande qualité composée par 
+			Koji Kondo. Le jeu s'est vendu à plus 6.5 millions d'exemplaires et la licence The Legend of Zelda continue de sortir de régulièrement
+			aujourd'hui. C'est une des licences les plus populaires de la société Nintendo.",
+			"question": ["zelda01","zelda02","zelda03"]
+		},
+		{
+			"id": "alexkidd",
+			"texte": "Alex Kidd est une des premières licences vidéoludique de la société Sega. Sorti en 1986 sur Master System, Alex Kidd In
+			Miracle World développé par Sega est un jeu de plateforme qui avait pour particularité d'être vendu directement dans la console
+			Master System. Il fallait démarrer la console sans cartouche à l'intérieur pour lancer le jeu. Alex Kidd a été la toute première
+			mascotte de Sega.",
+			"question": ["alexkidd01","alexkidd02","alexkidd03"]
+		},
+		{
+			"id": "pacman",
+			"texte": "Pac-Man est un jeu de type labyrinthe développé par Namco en 1980 pour borne d'Arcade. Dans ce jeu, le joueur contrôle
+			Pac-Man qui évolu dans un labyrinthe en vue de dessus et doit manger des boules se situant  de partout dans le labyrinthe sans se
+			faire attraper par trois fantômes le poursuivant. Le grand succès du jeu lui a valu de nombreux portages dont le premier sur console
+			Atari 2600. Pac-Man est aujourd'hui reconnu comme une véritable icône du jeu vidéo.",
+			"question": ["pacman01","pacman02","pacman03"]
 		},
 	]
 }
