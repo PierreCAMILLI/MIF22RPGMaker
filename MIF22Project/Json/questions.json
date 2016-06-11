@@ -173,7 +173,7 @@
 		},
 		{
 			"id": "donkeykong02",
-			"question": "Qu'est ce que Mario doit récuperer pour gagner la partie ?",
+			"question": "Qu'est ce que Mario doit récuperer pour finir le jeu ?",
 			"choix": [
 				"Une princesse",
 				"Un cocktail",
@@ -327,6 +327,152 @@
 				"Warcraft: Orcs and Humans",
 				"Warcraft II: Tides of Darkness",
 				"Command and Conquer : Conflit du Tibérium"
+			]
+		},
+		{
+			"id": "sonic01",
+			"question": "En quelle année est sorti le premier épisode de la série Sonic The Hedgehog ?",
+			"choix": [
+				"1991",
+				"1989",
+				"1990",
+				"1992",
+				"1993",
+				"1994",
+				"1995"
+			]
+		},
+		{
+			"id": "sonic02",
+			"question": "Quelle particularité présentait les jeux de la série Sonic The Hedgehog ?",
+			"choix": [
+				"La rapidité d'action",
+				"Un monde ouvert à explorer",
+				"La possibilité de se transformer",
+				"Un mode multijoueur"
+			]
+		},
+		{
+			"id": "sonic03",
+			"question": "En plus de la version Megadrive, sur quelle console a été portée le premier jeu de la série Sonic The Hedgehog ?",
+			"choix": [
+				"Master System",
+				"Game Gear",
+				"Sega Mark III",
+				"Saturn",
+				"Dreamcast"
+			]
+		},
+		{
+			"id": "zelda01",
+			"question": "En quelle année est sorti le premier épisode de la série The Legend of Zelda ?",
+			"choix": [
+				"1986",
+				"1985",
+				"1987",
+				"1988",
+				"1989",
+				"1990",
+				"1991"
+			]
+		},
+		{
+			"id": "zelda02",
+			"question": "Qui a composé le thème principal de la série  The Legend of Zelda ?",
+			"choix": [
+				"Koji Kondo",
+				"Kazumi Totaka",
+				"Mahito Yoko",
+				"David Wise",
+				"Grant Kirkhope"
+			]
+		},
+		{
+			"id": "zelda03",
+			"question": "Combien de donjons le joueur doit parcourir pour finir le premier jeu de la série The Legend of Zelda ?",
+			"choix": [
+				"9",
+				"5",
+				"6",
+				"7",
+				"8",
+				"10",
+				"11",
+				"12"
+			]
+		},
+		{
+			"id": "alexkidd01",
+			"question": "Quelle est la toute première mascotte de Sega ?",
+			"choix": [
+				"Alex Kidd",
+				"Sonic",
+				"Ristar",
+				"NiGHT",
+				"Ryo Hazuki"
+			]
+		},
+		{
+			"id": "alexkidd02",
+			"question": "En quelle année est sorti Alex Kidd ?",
+			"choix": [
+				"1986",
+				"1984",
+				"1985",
+				"1987",
+				"1988",
+				"1989"
+				"1990"
+			]
+		},
+		{
+			"id": "alexkidd03",
+			"question": "Comment était vendu le jeu Alex Kidd In Miracle World lors de sa sortie ?",
+			"choix": [
+				"Intégré à la console Master System",
+				"En boîte",
+				"En téléchargement",
+				"Jouable via borne d'arcade",
+				"Le jeu n'a jamais été commercialisé"
+			]
+		},
+		{
+			"id": "pacman01",
+			"question": "En quelle année est sortie la première version du jeu Pac-Man ?",
+			"choix": [
+				"1980",
+				"1978",
+				"1979",
+				"1981",
+				"1982",
+				"1983",
+				"1984",
+				"1985"
+			]
+		},
+		{
+			"id": "pacman02",
+			"question": "Sur quelle console est sortie la première version jouable chez soi de Pac-Man ?",
+			"choix": [
+				"Atari 2600",
+				"NES",
+				"Commodore 64",
+				"Intellivision",
+				"GameBoy",
+				"Game Gear",
+				"NeoGeo Pocket Color"
+			]
+		},
+		{
+			"id": "pacman03",
+			"question": "Dans le jeu Pac-Man, quels ennemis doit éviter Pac-Man ?",
+			"choix": [
+				"Des fantômes",
+				"Des gargouilles",
+				"Des squelettes",
+				"Des zombis",
+				"Des démons",
+				"Des lutins"
 			]
 		}
 	]
