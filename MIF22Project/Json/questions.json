@@ -20,6 +20,8 @@
 			"question": "Quel est le tout premier FPS ?",
 			"choix": [
 				"Maze War",
+				"Doom",
+				"Wolfenstein",
 				"Quake",
 				"Half-Life",
 				"Call Of Duty"
@@ -29,6 +31,9 @@
 			"id": "sega01",
 			"question": "Quelle est la toute première console de SEGA ?",
 			"choix": [
+				"SG-1000",
+				"SG-3000",
+				"Sega Mark III",
 				"Master System",
 				"Megadrive",
 				"Saturn",
@@ -40,6 +45,7 @@
 			"question": "De quelle console s'inspire la Master System ?",
 			"choix": [
 				"Sega Mark-III",
+				"Atari 2600",
 				"NES",
 				"Game Boy",
 				"Nintendo 64"
@@ -47,7 +53,7 @@
 		},
 		{
 			"id": "pokemon01",
-			"question": "Quel Pokémon n'était pas dans le choix de départ dans la version bleue ?",
+			"question": "Quel Pokémon n'était pas disponible comme choix de départ dans la version Bleue de la série Pokémon ?",
 			"choix": [
 				"Pikachu",
 				"Bulbizarre",
@@ -57,7 +63,7 @@
 		},
 		{
 			"id": "pokemon02",
-			"question": "En quelle année est sorti la version Jaune de Pokémon ?",
+			"question": "En quelle année est sorti la version Jaune de la série Pokémon ?",
 			"choix": [
 				"2000",
 				"1998",
@@ -67,17 +73,18 @@
 		},
 		{
 			"id": "pokemon03",
-			"question": "Combien de Pokémon possédait la version Jaune de Pokemon ?",
+			"question": "Combien de Pokémons possédait la version Jaune de la série Pokemon ?",
 			"choix": [
 				"151",
 				"140",
 				"178",
-				"190"
+				"190",
+				"250"
 			]
 		},
 		{
 			"id": "pokemon04",
-			"question": "Quelle région du jeu n'existe pas dans les versions Or et Argent de Pokémon ?",
+			"question": "Quelle région du jeu n'existe pas dans les versions Or et Argent de la série Pokémon ?",
 			"choix": [
 				"Broto",
 				"Johto",
@@ -86,7 +93,7 @@
 		},
 		{
 			"id": "spaceinvaders01",
-			"question": "Quelle est la date de sortie de Space Invaders ?",
+			"question": "En quelle année est sorti la première version de Space Invaders ?",
 			"choix": [
 				"1978",
 				"1976",
@@ -106,7 +113,7 @@
 		},
 		{
 			"id": "spaceinvaders03",
-			"question": "Quel est le but de Space Ivaders ?",
+			"question": "Quel est le but du jeu dans Space Invaders ?",
 			"choix": [
 				"Tirer sur des aliens",
 				"Chercher une princesse",
@@ -126,7 +133,7 @@
 		},
 		{
 			"id": "streetfighter02",
-			"question": "Qui était le seul personnage disponible en solo sur le premier opus de Street Fighter ?",
+			"question": "Qui était le seul personnage jouable en solo dans le premier opus de Street Fighter ?",
 			"choix": [
 				"Ryu",
 				"Ken",
@@ -176,7 +183,7 @@
 		},
 		{
 			"id": "donkeykong03",
-			"question": "Qui a concu Donkey Kong ?",
+			"question": "Qui a conçu Donkey Kong ?",
 			"choix": [
 				"Shigeru Miyamoto",
 				"Richard Garfield",
