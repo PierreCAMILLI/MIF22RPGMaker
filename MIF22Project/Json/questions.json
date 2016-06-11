@@ -312,7 +312,7 @@
 		},
 		{
 			"id": "supermariobros04",
-			"question": "De quel jeu est tiré la version occidentale de Super Mario Bros 2 ?",
+			"question": "De quel jeu japonais est tirée la version occidentale de Super Mario Bros 2 (aussi nommée Super Marios Bros 2 USA) ?",
 			"choix": [
 				"Doki Doki Panic",
 				"Super Mario Bros : The Lost Levels",
@@ -323,10 +323,10 @@
 			"id": "rts01",
 			"question": "Quel est le jeu de type STR le plus vendu de tous les temps ?",
 			"choix": [
-				"Stacraft : Brood War",
-				"Warcraft : Orc and Humans",
-				"Warcraft II : Tides of Darkness",
-				"Commande and Conquer : Conflit du Tibérium"
+				"Stacraft: Brood War",
+				"Warcraft: Orcs and Humans",
+				"Warcraft II: Tides of Darkness",
+				"Command and Conquer : Conflit du Tibérium"
 			]
 		}
 	]
