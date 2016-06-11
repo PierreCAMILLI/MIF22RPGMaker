@@ -45,8 +45,9 @@
 		},
 		{
 			"id": "dragonquest",
-			"texte": "Dragon Quest est édité par Enix en 1986. Le jeu est concu par Yuji Horii qui est surtout connu pour son travail sur 
-			Dragon Quest. Le compositeur le plus connu ayant travaillé sur ce jeu est Koichi Sugiyama ",
+			"texte": "Dragon Quest est une série crée par Yuji Horii de la société Enix en 1986. C'est cette série qui a donnée naissance au
+			genre de jeu J-RPG. Son compositeur attitré pour la réalisation de la bande sonore des jeux de cette série est Koichi Sugiyama.
+			Au Japon, cette série est un véritable phénomène de société et est la série de jeu la plus vendue sur l'archipel.",
 			"question": ["dragonquest03"]
 		},
 		{
