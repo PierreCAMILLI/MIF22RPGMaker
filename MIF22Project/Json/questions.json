@@ -1,21 +1,6 @@
 {
 	"questions": [
 		{
-			"id": "mario01",
-			"question": "En quelle année est sorti Super Mario Bros ?",
-			"choix": [
-				"1985",
-				"1981",
-				"1982",
-				"1983",
-				"1984",
-				"1986",
-				"1987",
-				"1988",
-				"1989"
-			]
-		},
-		{
 			"id": "fps01",
 			"question": "Quel est le tout premier FPS ?",
 			"choix": [
@@ -292,7 +277,30 @@
 			]
 		},
 		{
-			"id": "supermariobros02",
+			"id": "mario02",
+			"question": "Combien d'exemplaires de Super Mario Bros on été vendu dans le monde ?",
+			"choix": [
+				"40 millions",
+				"1 million",
+				"5 millions",
+				"10 millions",
+				"20 millions",
+				"80 millions"
+			]
+		},
+		{
+			"id": "mario03",
+			"question": "Qui a conçu Super Mario Bros ?",
+			"choix": [
+				"Shigeru Miyamoto",
+				"Alexei Pajitnov",
+				"Hironobu Sakaguchi",
+				"Yoshinori Ono",
+				"Notch"
+			]
+		},
+		{
+			"id": "supermariobros201",
 			"question": "Sous quel nom le second épisode de Super Mario Bros tel qu'il est sorti au Japon est connu en occident ?",
 			"choix": [
 				"Super Mario Bros : The Lost Levels",
@@ -301,7 +309,7 @@
 			]
 		},
 		{
-			"id": "supermariobros03",
+			"id": "supermariobros202",
 			"question": "Quelle entreprise a développée Super Mario Bros 2 ?",
 			"choix": [
 				"Nintendo"
@@ -311,12 +319,46 @@
 			]
 		},
 		{
-			"id": "supermariobros04",
+			"id": "supermariobros203",
 			"question": "De quel jeu japonais est tirée la version occidentale de Super Mario Bros 2 (aussi nommée Super Marios Bros 2 USA) ?",
 			"choix": [
 				"Doki Doki Panic",
 				"Super Mario Bros : The Lost Levels",
 				"Super Mario Bros 2"
+			]
+		},
+		{
+			"id": "supermariobros301",
+			"question": "En quelle année est sorti Super Mario Bros 3 ?",
+			"choix": [
+				"1988",
+				"1985",
+				"1986",
+				"1987",
+				"1989",
+				"1990",
+				"1991"
+			]
+		},
+		{
+			"id": "supermariobros302",
+			"question": "Dans Super Mario Bros 3, comment le joueur choisit-il le niveau qu'il souhaite jouer ?",
+			"choix": [
+				"En parcourant une map monde",
+				"Les niveaux s'enchaînent sans pouvoir être choisi",
+				"En les choisissant dans un menu",
+				"En sélectionnant un tuyau à la fin de chaque niveau"
+			]
+		},
+		{
+			"id": "supermariobros303",
+			"question": "Combien de niveaux le joueur peut parcourir dans Super Mario Bros 3 ?",
+			"choix": [
+				"90",
+				"24",
+				"50",
+				"70",
+				"120"
 			]
 		},
 		{

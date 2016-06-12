@@ -20,12 +20,29 @@
 			"question": ["rts02"]
 		},		
 		{
+			"id": "supermariobros",
+			"texte": "Sorti en 1985 sur la console NES conçu par Shigeru Miyamoto et édité par Nintendo, Super Mario Bros est l'icône la
+			plus représentative du jeu vidéo. Le premier épisode de la série a redéfini les bases du jeu de plateforme 2D en créant de 
+			nouvelles normes de gameplay (possibilité de jeu offertes au joueur) et de level-design (architecture des niveaux dans lesquels
+			évoluent les personnages d'un jeu). Ce jeu est pendant très longtemps resté le jeu le plus vendu de tous les temps avec plus 
+			de 40 millions d'exemplaires vendus dans le monde. Aujourd'hui de nombreux jeux de la franchise Mario sortent encore.",
+			"question": ["mario01", "mario02", "mario03"]
+		},		
+		{
 			"id": "supermariobros2",
 			"texte": "Cet épisode n'est pas un jeu original puisqu'il s'agit de l'adaptation de Yume Kōjō: Doki Doki Panic, un jeu Nintendo 
-			sorti au Japon sur Famicom Disk System en 1987. La première véritable suite à Super Mario Bros. est Super Mario Bros.: The Lost 
-			Levels (connu au Japon sous le nom de Super Mario Bros. 2) mais cet épisode n'étant pas sorti à l'époque en Occident, c'est cette 
-			adaptation qui a fait office de suite pour les Occidentaux.",
-			"question": ["supermariobros203", "supermariobros201"]
+			sorti au Japon sur Famicom Disk System en 1987 (équivalent de la console NES au Japon). La première véritable suite à Super Mario
+			Bros. est Super Mario Bros.: The Lost Levels (connu au Japon sous le nom de Super Mario Bros. 2) mais cet épisode n'étant pas sorti
+			à l'époque en Occident, c'est cette adaptation qui a fait office de suite pour les Occidentaux.",
+			"question": ["supermariobros201", "supermariobros202", "supermariobros203"]
+		},		
+		{
+			"id": "supermariobros3",
+			"texte": "Sorti en 1988 sur NES, Super Mario Bros 3 est une évolution de ses prédécesseurs en proposant des graphismes de qualité bien
+			supérieures aux épisodes précédents, plus de 90 niveaux à parcourir (contre 24 dans les précédents), plus de transformations,
+			une carte à parcourir pour choisir les niveaux et accéder à des bonus, etc. Le jeu  s'écoula à plus de 18 millions d'exemplaires
+			et est encore aujourd'hui considéré comme un des meilleurs jeux de la franchise.",
+			"question": ["supermariobros201", "supermariobros202", "supermariobros203"]
 		},
 		{
 			"id": "neszapper",
