@@ -1,4 +1,4 @@
 {
-"general": {"nom": "mickael", "repTotales": 0, "rateRep": 0},
-"detail": []
+"general": {"nom": "mickael", "repTotales": 16, "rateRep": 3},
+"detail": [{"id": "pokemon01", "tentative": 3, "rate": 0},{"id": "pokemon02", "tentative": 3, "rate": 1},{"id": "pokemon03", "tentative": 2, "rate": 0},{"id": "pokemon04", "tentative": 2, "rate": 1},{"id": "duckhunt02", "tentative": 1, "rate": 0},{"id": "duckhunt01", "tentative": 1, "rate": 0},{"id": "duckhunt03", "tentative": 1, "rate": 0},{"id": "pacman01", "tentative": 2, "rate": 1},{"id": "pacman02", "tentative": 1, "rate": 0},{"id": "pacman03", "tentative": 1, "rate": 0},{"id": "sonic01", "tentative": 1, "rate": 0},{"id": "sonic02", "tentative": 1, "rate": 0},{"id": "sonic03", "tentative": 1, "rate": 0},{"id": "streetfighter01", "tentative": 1, "rate": 0},{"id": "streetfighter02", "tentative": 1, "rate": 0},{"id": "streetfighter04", "tentative": 1, "rate": 0}]
 }
