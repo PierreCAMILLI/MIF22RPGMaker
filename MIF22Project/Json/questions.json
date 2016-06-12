@@ -474,6 +474,80 @@
 				"Des démons",
 				"Des lutins"
 			]
+		},
+		{
+			"id": "megaman01",
+			"question": "En quelle année est sortie le tout premier jeu de la franchise Megaman ?",
+			"choix": [
+				"1987",
+				"1985",
+				"1986",
+				"1988",
+				"1989",
+				"1990",
+				"1991",
+				"1992"
+			]
+		},
+		{
+			"id": "megaman02",
+			"question": "Quel est l'éditeur de la série Megaman ?",
+			"choix": [
+				"Capcom",
+				"Nintendo",
+				"Konami",
+				"Namco",
+				"Hudson Soft",
+				"Sega"
+			]
+		},
+		{
+			"id": "megaman03",
+			"question": "Quel est la particularité du personnage de Megaman ?",
+			"choix": [
+				"Voler les pouvoirs de ses ennemis",
+				"Se téléporter",
+				"Va très vite",
+				"Peut étendre ses bras"
+			]
+		},
+		{
+			"id": "castlevania01",
+			"question": "En quelle année est sorti le premier épisode de la série Castlevania (Akumajo Dracula) ?",
+			"choix": [
+				"1986",
+				"1981",
+				"1982",
+				"1983",
+				"1984",
+				"1985",
+				"1987",
+				"1988"
+			]
+		},
+		{
+			"id": "castlevania02",
+			"question": "Qui est l'éditeur du jeu Castlevania (Akumajo Dracula) ?",
+			"choix": [
+				"Konami",
+				"Capcom",
+				"Nintendo",
+				"Namco",
+				"Hudson Soft",
+				"Sega"
+			]
+		},
+		{
+			"id": "castlevania03",
+			"question": "Quelle est l'arme de prédilection de la famille Belmont dans la saga Castlevania ?",
+			"choix": [
+				"Le fouet",
+				"L'épée",
+				"Le marteau",
+				"La hâche",
+				"L'arc",
+				"L'arbalète"
+			]
 		}
 	]
 }

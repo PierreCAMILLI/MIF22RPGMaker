@@ -164,5 +164,24 @@
 			Atari 2600. Pac-Man est aujourd'hui reconnu comme une véritable icône du jeu vidéo.",
 			"question": ["pacman01","pacman02","pacman03"]
 		},
+		{
+			"id": "megaman",
+			"texte": "La saga Megaman est une série de jeux de type action/plateforme créée par la société Capcom en 1987. Elle propose au joueur
+			d'incarner le personnage de Megaman (Rockman en japonais) devant déjouer les plans maléfiques du Dr Wily. Outre le fait de proposer des
+			jeux très dynamiques, techniquement au point et doté d'une bande sonore de qualité, la série se démarque par la capacité de Megaman à
+			Megaman à absorber les pouvoirs des boss qu'il affronte. Il s'agit encore aujourd'hui d'une série de jeux vidéo dite culte et de la
+			licence vidéoludique ayant eu le plus d'itérations dans l'histoire du jeu vidéo avec plus de 120 jeux sorti à ce jour.",
+			"question": ["megaman01","megaman02","megaman03"]
+		},
+		{
+			"id": "castlevania",
+			"texte": "La saga Castlevania est une série de jeux de type action/plateforme créée par la société Konami en 1986. Dans ce jeu, le
+			joueur incarne Simon Belmont, un chasseur de vampire pénétrant dans le château de Castlevania afin d'y vaincre Dracula. Tout au long
+			du jeu, le joueur ramassera de nouvelles armes et affrontera de nombreux ennemis et boss imposants. Dans les différents épisodes de
+			la série, le joueur incarnera différents membres de la famille Belmont toujours armé du fameux fouet appartenant à la famille
+			pour déjouer les plans de Dracula. Cette série a su se faire remarquer à l'époque par son esthétique gothique et sa bande sonore de
+			qualité. C'est une des licences les plus populaires de l'éditeur Konami.",
+			"question": ["castlevania01","castlevania02","castlevania03"]
+		}
 	]
 }
