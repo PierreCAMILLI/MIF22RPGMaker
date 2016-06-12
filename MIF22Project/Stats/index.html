@@ -32,7 +32,6 @@
             });
         })
         .done(function() {
-            barTempsDeJeu();
             pieGeneral();
             barDetail();
         })
@@ -170,68 +169,7 @@
                         }
                     }
                 });  
-        }
-
-        
-        function barTempsDeJeu(){
-            var dataEng = {
-                labels: [],
-                datasets: []
-            };
-            datatmp = {
-            	label: "Temps estimé pour finir le jeu",
-                backgroundColor: "rgb(250, 100, 100)",
-                data: [3]
-            };
-            dataEng.datasets.push(datatmp);
-            datatmp = {
-            	label: "Temps de jeu total",
-                backgroundColor: "rgb(250, 150, 100)",
-                data: [2]
-            };
-            dataEng.datasets.push(datatmp);
-            datatmp = {
-            	label: "Temps de jeu moyen par session",
-                backgroundColor: "rgb(250, 200, 100)",
-                data: [1]
-            };
-            dataEng.datasets.push(datatmp);
-            datatmp = {
-            	label: "Zoomer",
-                backgroundColor: "rgba(150, 200, 150, 0)",
-                data: [0]
-            };
-            dataEng.datasets.push(datatmp);
-
-            
-                           var ctx = document.getElementById("canvasTempsDeJeu").getContext("2d");
-                window.myBar = new Chart(ctx, {
-                    type: 'horizontalBar',
-                    data: dataEng,
-                    options: {
-                        // Elements options apply to all of the options unless overridden in a dataset
-                        // In this case, we are setting the border of each bar to be 2px wide and green
-                        elements: {
-                            rectangle: {
-                                borderWidth: 2,
-                                
-                                borderSkipped: 'bottom'
-                            }
-                        },
-                        responsive: true,
-                        responsiveAnimationDuration: 2000,
-                        legend: {
-                            position: 'top',
-                        },
-                        title: {
-                            display: true,
-                            text: 'Temps de jeu en heure'
-                        }
-                    }
-                });  
-        }
-
-    
+        }   
         
     </script>
 </body>
